@@ -11,6 +11,7 @@ import Features from "../sections/Features";
 import TikerWig from "../sections/TikerWig";
 import Services from "../sections/Services";
 import Whyus from "../sections/Whyus";
+import ContactUs from "../sections/ContactUs";
 function Home() {
   return (
     <>
@@ -41,12 +42,15 @@ function Home() {
         <div className="mb-10">
        <Lexipay/>
         </div>
-        <div className="mb-10">
+        <div className="b-10">
       <Whyus/>
         </div>
-        <div className="mb-10">
+        <div className="">
        <Invest/>
        <Features/>
+        </div>
+        <div className="mb-10">
+     <ContactUs/>
         </div>
 
         <Footer/>
