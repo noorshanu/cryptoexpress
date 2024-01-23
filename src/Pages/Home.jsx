@@ -10,6 +10,7 @@ import Invest from "../sections/Invest";
 import Features from "../sections/Features";
 import TikerWig from "../sections/TikerWig";
 import Services from "../sections/Services";
+import Whyus from "../sections/Whyus";
 function Home() {
   return (
     <>
@@ -39,6 +40,9 @@ function Home() {
 
         <div className="mb-10">
        <Lexipay/>
+        </div>
+        <div className="mb-10">
+      <Whyus/>
         </div>
         <div className="mb-10">
        <Invest/>
