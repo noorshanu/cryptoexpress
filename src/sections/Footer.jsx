@@ -7,7 +7,7 @@ function Footer() {
       <div className=" container-wrapper">
         <div className=" flex flex-col sm:flex-row gap-4  justify-between items-center">
           <div>
-            <img src="images/logo.png" alt="" className="h-[150px] w-full" />
+            <img src="images/logo.png" alt="" className=" h-auto sm:h-[150px] w-full" />
           </div>
 
           <div className="flex flex-col sm:flex-row items-center gap-4 ">

@@ -6,7 +6,7 @@ import "swiper/css";
 import "swiper/css/effect-cards";
 
 // import required modules
-import { EffectCards } from "swiper/modules";
+import { EffectCards,Autoplay } from "swiper/modules";
 
 function ContactUs() {
   const [formData, setFormData] = useState({
@@ -25,42 +25,48 @@ function ContactUs() {
     console.log("Form submitted:", formData);
   };
   return (
-    <section>
+    <section className=" py-12">
       <div className=" container-wrapper">
-        <div className=" flex justify-evenly items-center gap-4">
+        <div className=" flex justify-evenly flex-col sm:flex-row items-center gap-4">
           <div>
-            <h1>telegram</h1>
+            <h1 className=" text-center text-white">telegram</h1>
 
-            <div className=" max-w-xl">
+            <div className=" max-w-sm sm:max-w-xl w-full mx-auto">
               <Swiper
                 effect={"cards"}
                 grabCursor={true}
-                modules={[EffectCards]}
+                modules={[EffectCards,Autoplay]}
+                centeredSlides={true}
+                loop={true}
+                autoplay={{ delay: 3000 }}
+                cardsEffect={{
+                    slideShadows: false,
+                  }}
                 className="mySwiper"
               >
                 <SwiperSlide>
-                  <img src="images/phone.png" alt="" className=" rounded-md " />
+                  <img src="images/phone2.png" alt="" className=" rounded-md h-[300px] sm:h-[600px]  " />
+                </SwiperSlide>
+                <SwiperSlide> 
+                  <img src="images/phone2.png" alt="" className=" rounded-md  h-[300px] sm:h-[600px]" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src="images/phone.png" alt="" />
+                  <img src="images/phone2.png" alt="" className=" rounded-md  h-[300px] sm:h-[600px] " />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src="images/phone.png" alt="" />
+                  <img src="images/phone2.png" alt="" className=" rounded-md h-[300px] sm:h-[600px] " />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src="images/phone.png" alt="" />
+                  <img src="images/phone2.png" alt="" className=" rounded-md ]  h-[300px] sm:h-[600px]" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src="images/phone.png" alt="" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <img src="images/phone.png" alt="" />
+                  <img src="images/phone2.png" alt="" className=" rounded-md  h-[300px] sm:h-[600px] " />
                 </SwiperSlide>
               </Swiper>
             </div>
           </div>
 
-          <div>
+          <div className=" max-w-full sm:max-w-xl w-full">
             <h1>Submit AMA Request</h1>
 
             <div className="mx-auto my-10 p-6 bg-[#000000b4] rounded-md shadow-md">
