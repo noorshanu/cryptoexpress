@@ -3,28 +3,47 @@ import React from "react";
 function Lexipay() {
   return (
     <section>
-      <div className=" container-wrapper mx-auto">
-        <div className=" flex  justify-between flex-col sm:flex-row ">
+      <div className="container-wrapper mx-auto">
+        <div className="flex flex-col sm:flex-row justify-between gap-4 ">
           <div>
-            <h1 className=" font-sohaBold text-[40px] font-bold mb-[3rem]">At LeedixPay,</h1>
+            <h1 className="font-bold text-4xl mb-6 text-white">Our Goals</h1>
 
-            <p className=" max-w-[640px] text-base font-sohaReg">
-              we believe in the importance of self-sufficiency, continuous
-              learning and innovation. We encourage everyone to seize the
-              opportunities offered by our platforms and embrace change for a
-              better future. Join us today and together, let’s build a world
-              where dreams become reality, one transfer at a time. Get ready to
-              embark on an exciting adventure with LeedixPay!
-            </p>
+            {goals.map((goal, index) => (
+              <div key={index} className="goal-item max-w-[640px] text-base text-white flex items-center gap-4 py-4">
+                <p className="bg-[#3da142] rounded-full py-1 px-3 h-[35px] text-center text-white text-sm font-medium">
+                  {index + 1}.
+                </p>
+                <p>{goal.text}</p>
+              </div>
+            ))}
           </div>
 
           <div>
-            <img src="images/iphone.png" alt="" className=" h-[90%] mx-auto" />
+            <img src="images/iphone.png" alt="Lexipay App" className="h-[80%] mx-auto" />
+            <h2 className=" text-center text-white text-2xl ml-12 font-medium">LET’S TALK ABOUT PROFITS</h2>
           </div>
         </div>
       </div>
     </section>
   );
 }
+
+const goals = [
+  {
+    text: "Our Goal is to help you to trade the right way by sharing our experience, knowledge, and insights on how to make money trading cryptocurrency.",
+  },
+  {
+    text: "We aim to provide day trading courses to generate stable profit from daily trading.",
+  },
+  {
+    text: "Company intends to come up with real-time crypto news updates for investors, traders, and enthusiasts.",
+  },
+  {
+    text: "Provide a clear roadmap for the investors to monitor performance and see progress.",
+  },
+  {
+    text: "We can guide you to make a profit in any market shape.",
+  },
+];
 
 export default Lexipay;

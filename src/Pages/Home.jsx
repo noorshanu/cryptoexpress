@@ -37,9 +37,9 @@ function Home() {
        <AboutFun/>
         </div> */}
 
-        {/* <div className="mb-10">
+        <div className="mb-10">
        <Lexipay/>
-        </div> */}
+        </div>
         <div className="mb-10">
        <Invest/>
        <Features/>
