@@ -2,14 +2,14 @@ import TokenCard from "../components/TokenCard";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
-import { Navigation } from "swiper/modules";
+import { Navigation,Autoplay } from "swiper/modules";
 import SliderNavigationButton from "../components/SliderNavigationButton";
 
 const data = [
   {
     title: "$25K Volume",
     subtitle: "Trading Volume",
-    imageSrc: "/images/icons/etf_volume.svg",
+    imageSrc: "/images/team1.png",
     description: [
       "Total LDP trading volume hits $100 million",
       "5% of total supply is burned (6,000,000 tokens)",
@@ -19,7 +19,7 @@ const data = [
   {
     title: "ETF Approval",
     subtitle: "First ETF Approval",
-    imageSrc: "/images/icons/etf_approval.svg",
+    imageSrc: "/images/team4.png",
     description: [
       "SEC approves first LeedixPay in the U.S.",
       "Another 5% of total supply is burned (6,000,000  tokens)",
@@ -29,7 +29,7 @@ const data = [
   {
     title: "ETF Launch",
     subtitle: "Launch Date",
-    imageSrc: "/images/icons/etf_launch.svg",
+    imageSrc: "/images/team3.png",
     description: [
       "First LeedixPay launches in the U.S.",
       "Another 5% of total supply is burned (6,000,000  tokens)",
@@ -39,7 +39,7 @@ const data = [
   {
     title: "ETF (AUM) $1B",
     subtitle: "ETF Assets $1 Billion",
-    imageSrc: "/images/icons/etf_aum.svg",
+    imageSrc: "/images/team2.png",
     description: [
       "LeedixPay assets under management (AUM) hits $1 billion value",
       "Another 5% of total supply is burned (6,000,000  tokens)",
@@ -49,7 +49,7 @@ const data = [
   {
     title: "Ethereum $25K",
     subtitle: "$25K ETH Price",
-    imageSrc: "/images/icons/etf_bitcoin.svg",
+    imageSrc: "/images/team1.png",
     description: [
       "The ETH price closes a daily candle above $25,000",
       "Another 5% of total supply is burned (6,000,000  tokens)",
@@ -65,7 +65,8 @@ function Tokenomics() {
         slidesPerView={3.5}
         spaceBetween={30}
         className="py-5 [&_.swiper-slide]:!h-auto"
-        modules={[Navigation]}
+        autoplay={{ delay: 3000 }}
+        modules={[Navigation,Autoplay]}
         navigation={{
           nextEl: "#nextEl1",
           prevEl: "#prevEl1",

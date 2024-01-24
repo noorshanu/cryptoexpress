@@ -12,6 +12,7 @@ import TikerWig from "../sections/TikerWig";
 import Services from "../sections/Services";
 import Whyus from "../sections/Whyus";
 import ContactUs from "../sections/ContactUs";
+import Tokenomics from "../sections/Tokenomics";
 function Home() {
   return (
     <>
@@ -49,9 +50,14 @@ function Home() {
        <Invest/>
        <Features/>
         </div>
+        <div className="my-10">
+        <Tokenomics/>
+        </div>
         <div className="mb-10">
+      
      <ContactUs/>
         </div>
+       
 
         <Footer/>
       </div>
