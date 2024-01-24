@@ -56,6 +56,7 @@ export default function Navbar() {
             <a
               href="#why"
               className="font-medium cursor-pointer text-lg font-sohaMed"
+              onClick={() => setSidebarVisibility(false)}
             >
               Why Us
             </a>
