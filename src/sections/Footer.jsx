@@ -20,18 +20,18 @@ function Footer() {
               <a href="/" className=" text-xl ">
                 <BsTwitterX />
               </a>
-              <a href="/" className=" text-xl">
+              <a href="/" className=" text-4xl">
                 <BsInstagram />
               </a>
 
-              <a href="/" className=" text-xl">
+              <a href="/" className=" text-4xl">
                 <BsFacebook />
               </a>
 
-              <a href="/" className=" text-xl">
+              <a href="/" className=" text-4xl">
                 <FaLinkedinIn />
               </a>
-              <a href="/" className=" text-xl">
+              <a href="/" className=" text-4xl">
                 <FaTelegram />
               </a>
             </div>
