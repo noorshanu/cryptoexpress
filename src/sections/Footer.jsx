@@ -17,7 +17,7 @@ function Footer() {
           <div className="flex flex-col sm:flex-row items-center gap-4 ">
             <div className="bg-white h-[1px] w-44"></div>
             <div className=" flex items-center gap-4 text-white">
-              <a href="/" className=" text-xl ">
+              <a href="/" className=" text-4xl ">
                 <BsTwitterX />
               </a>
               <a href="/" className=" text-4xl">
