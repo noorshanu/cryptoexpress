@@ -19,7 +19,7 @@ function Lexipay() {
           </div>
 
           <div>
-            <img src="images/iphone.png" alt="Lexipay App" className="h-[80%] mx-auto" />
+            <img src="images/iphone.png" alt="Lexipay App" className="h-[80%] mx-auto floating" />
             <h2 className=" text-center text-white text-2xl ml-12 font-medium">LET’S TALK ABOUT PROFITS</h2>
           </div>
         </div>

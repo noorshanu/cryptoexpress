@@ -27,72 +27,15 @@ function Whyus() {
             ))}
           </div>
 
-          <div className=" max-w-3xl overflow-y-hidden">
-            <Swiper
-              effect={"coverflow"}
-              grabCursor={true}
-              centeredSlides={true}
-              slidesPerView={"2"}
-              autoplay={{
-                delay: 2500,
-                disableOnInteraction: false,
-              }}
-              coverflowEffect={{
-                rotate: 50,
-                stretch: 0,
-                depth: 100,
-                modifier: 1,
-                slideShadows: true,
-              }}
-              breakpoints={{
-                100: {
-                  slidesPerView: 1,
-                },
-                500: {
-                  slidesPerView: 1,
-                },
-                1024: {
-                  slidesPerView: 2,
-                },
-              }}
-              pagination={true}
-              modules={[Autoplay, EffectCoverflow, Pagination]}
-              className="mySwiper hidden sm:block"
-            >
-              <SwiperSlide>
-                <img
-                  src="images/slider1.jpg"
-                  className="h-[300px]  border rounded-lg p-2 bg-black"
-                />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img
-                  src="images/slider2.jpg"
-                  className="h-[300px] border rounded-lg p-2 bg-black"
-                />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img
-                  src="images/slider3.jpg"
-                  className="h-[300px] border rounded-lg p-2 bg-black"
-                />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img
-                  src="images/slider4.jpg"
-                  className="h-[300px] border rounded-lg p-2 bg-black"
-                />
-              </SwiperSlide>
-            </Swiper>
-            <div className=" block sm:hidden overflow-hidden">
-            <img
-                  src="images/slider4.jpg"
-                  className="h-[300px] border rounded-lg p-2 bg-black"
-                />
+          <div className=" max-w-xl overflow-y-hidden">
+            <div div className=" bg-[#58c648] rounded-full p-4">
+            <img src="images/why.png" alt="" className="  p-5" />
             </div>
-            <h2 className=" text-center text-black text-2xl ml-12 font-medium">
+         
+         
+            {/* <h2 className=" text-center text-black text-2xl ml-12 font-medium">
               TAKE A LOOK INSIDE
-            </h2>
+            </h2> */}
           </div>
         </div>
       </div>

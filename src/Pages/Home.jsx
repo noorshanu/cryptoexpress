@@ -47,8 +47,8 @@ function Home() {
       <Whyus/>
         </div>
         <div className="">
-       <Invest/>
-       <Features/>
+       {/* <Invest/>
+       <Features/> */}
         </div>
         <div className="my-10">
         <Tokenomics/>
