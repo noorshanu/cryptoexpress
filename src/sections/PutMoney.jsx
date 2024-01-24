@@ -32,15 +32,15 @@ function PutMoney() {
 
 
             <div className=" flex flex-col sm:flex-row gap-4 items-center mt-14">
-            <button className="btn-grad px-12 py-2 font-sohaBold text-lg text-white">
+            <a href="https://t.me/thecryptoexpress" target="_blank" className="btn-grad px-12 py-2 font-sohaBold text-lg text-white">
                 {" "}
                 Join Our Channel
-              </button>
+              </a>
 
-              <button className="btn-grad px-16 sm:px-12 py-2 font-sohaBold text-lg text-white">
+              <a href="https://t.me/thecryptoexpress" target="_blank" className="btn-grad px-16 sm:px-12 py-2 font-sohaBold text-lg text-white">
                 {" "}
                 Chat With US
-              </button>
+              </a>
             </div>
           </div>
         </div>
