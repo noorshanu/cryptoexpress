@@ -15,7 +15,7 @@ function PutMoney() {
 
           <div data-aos="fade-left" data-aos-duration="2000">
             <h2 className=" font-sohaBold text-5xl py-2 mb-4 lh-1_5 text-[#3da142]">
-              What is Crypto Express ?
+              What is TheCryptoExpress  ?
             </h2>
 
             <p className=" max-w-2xl font-sohaReg text-lg">

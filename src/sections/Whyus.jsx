@@ -1,17 +1,23 @@
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/effect-coverflow";
+
+
+
 import "swiper/css/pagination";
-import { EffectCoverflow, Pagination, Autoplay } from "swiper/modules";
-import "swiper/css/navigation";
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/effect-cards";
+
+// import required modules
+import { EffectCards,Autoplay } from "swiper/modules";
 
 function Whyus() {
   return (
-    <section className=" bg-white py-12">
+    <section className=" bg-white py-12 overflow-x-hidden" id="why">
       <div className="container-wrapper mx-auto">
         <div className="flex flex-col sm:flex-row justify-between gap-4 items-center ">
-          <div>
+          <div data-aos-duration="2000" data-aos="fade-right"  >
             <h1 className="font-bold text-4xl mb-6 text-black">Why us?</h1>
 
             {goals.map((goal, index) => (
@@ -27,9 +33,39 @@ function Whyus() {
             ))}
           </div>
 
-          <div className=" max-w-xl overflow-y-hidden">
-            <div div className=" bg-[#58c648] rounded-full p-4">
-            <img src="images/why.png" alt="" className="  p-5" />
+          <div className=" max-w-xl overflow-x-hidden" data-aos-duration="2000" data-aos="fade-left"  >
+            <div div className=" ml-0 sm:ml-10 p-4">
+            <Swiper
+                effect={"cards"}
+                grabCursor={true}
+                modules={[EffectCards,Autoplay]}
+                centeredSlides={true}
+                loop={true}
+                autoplay={{ delay: 3000 }}
+                cardsEffect={{
+                    slideShadows: false,
+                  }}
+                className="mySwiper overflow-hidden mx-auto "
+              >
+                <SwiperSlide>
+                  <img src="images/phone2.png" alt="" className=" rounded-md h-[300px] sm:h-[600px]  " />
+                </SwiperSlide>
+                <SwiperSlide> 
+                  <img src="images/phone2.png" alt="" className=" rounded-md  h-[300px] sm:h-[600px]" />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img src="images/phone2.png" alt="" className=" rounded-md  h-[300px] sm:h-[600px] " />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img src="images/phone2.png" alt="" className=" rounded-md h-[300px] sm:h-[600px] " />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img src="images/phone2.png" alt="" className=" rounded-md ]  h-[300px] sm:h-[600px]" />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img src="images/phone2.png" alt="" className=" rounded-md  h-[300px] sm:h-[600px] " />
+                </SwiperSlide>
+              </Swiper>
             </div>
          
          

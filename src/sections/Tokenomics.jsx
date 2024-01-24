@@ -60,13 +60,14 @@ const data = [
 
 function Tokenomics() {
   return (
-    <section className="px-6">
+    <section className="px-6 overflow-x-hidden" id="testi">
       <div className=" text-center">
         <h1 className=" text-white font-sohaBold text-4xl"> Testimonials</h1>
         <p className="text-white  text-xl py-4">
         Check Feedback From Valued CE Members!
         </p>
       </div>
+      <div data-aos-duration="2000" data-aos="fade-up"  data-aos-anchor-placement="bottom-bottom">
       <Swiper
         slidesPerView={3.5}
         spaceBetween={30}
@@ -100,6 +101,8 @@ function Tokenomics() {
           </SwiperSlide>
         ))}
       </Swiper>
+      </div>
+ 
 
       <div className="flex items-center space-x-5 justify-center">
         <SliderNavigationButton id="prevEl1" className="rotate-180" />

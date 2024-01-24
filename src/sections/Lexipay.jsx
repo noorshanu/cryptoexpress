@@ -2,11 +2,11 @@ import React from "react";
 
 function Lexipay() {
   return (
-    <section>
+    <section className=" overflow-x-hidden" id="vision">
       <div className="container-wrapper mx-auto">
         <div className="flex flex-col sm:flex-row justify-between gap-4 ">
-          <div>
-            <h1 className="font-bold text-4xl mb-6 text-white">Our Goals</h1>
+          <div data-aos-duration="2000" data-aos="fade-right"  >
+            <h1 className="font-bold text-4xl mb-6 text-white">Our Vision</h1>
 
             {goals.map((goal, index) => (
               <div key={index} className="goal-item max-w-[640px] text-base text-white flex items-center gap-4 py-4">
@@ -18,9 +18,9 @@ function Lexipay() {
             ))}
           </div>
 
-          <div>
+          <div data-aos-duration="2000" data-aos="fade-left"  >
             <img src="images/iphone.png" alt="Lexipay App" className="h-[80%] mx-auto floating" />
-            <h2 className=" text-center text-white text-2xl ml-12 font-medium">LET’S TALK ABOUT PROFITS</h2>
+            <h2 className=" text-center text-white text-xl  sm:text-2xl ml-12 font-medium">Let’s talk about profit together</h2>
           </div>
         </div>
       </div>

@@ -31,7 +31,7 @@ function Footer() {
               <a href="/" className=" text-4xl">
                 <FaLinkedinIn />
               </a>
-              <a href="/" className=" text-4xl">
+              <a href="https://t.me/thecryptoexpress" target="_blank" className=" text-4xl">
                 <FaTelegram />
               </a>
             </div>

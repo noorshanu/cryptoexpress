@@ -53,13 +53,13 @@ export default function Navbar() {
               Home
             </Typography>
             <Typography
-              as={Link}
-              to='/'
+            
+              
               variant="sm"
               className="font-medium cursor-pointer text-lg font-sohaMed"
               onClick={() => setSidebarVisibility(false)}
             >
-             Why Choose Us
+             <a href="#why">Why  Us</a>
             </Typography>
             <Typography
               as={Link}
@@ -67,15 +67,23 @@ export default function Navbar() {
               className="font-medium cursor-pointer text-lg font-sohaMed"
               onClick={() => setSidebarVisibility(false)}
             >
-              Services
+             Vision
             </Typography>
             <Typography
-              as={Link}
+             
               variant="sm"
               className="font-medium cursor-pointer text-lg font-sohaMed"
               onClick={() => setSidebarVisibility(false)}
             >
-              Request AMA
+              <a href="#testi">Testimonials</a>
+            </Typography>
+            <Typography
+             
+              variant="sm"
+              className="font-medium cursor-pointer text-lg font-sohaMed"
+              onClick={() => setSidebarVisibility(false)}
+            >
+             <a href="#conatct"> Conatct us</a>
             </Typography>
             <div className=" flex items-center gap-4">
               <a href="/" className=" text-xl">
@@ -92,7 +100,7 @@ export default function Navbar() {
               <a href="/" className=" text-xl">
               <FaLinkedinIn />
               </a>
-              <a href="/" className=" text-xl">
+              <a href="https://t.me/thecryptoexpress" target="_blank" className=" text-xl">
               <FaTelegram />
               </a>
 
