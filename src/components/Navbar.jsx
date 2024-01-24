@@ -83,7 +83,7 @@ export default function Navbar() {
               className="font-medium cursor-pointer text-lg font-sohaMed"
               onClick={() => setSidebarVisibility(false)}
             >
-              <a href="#conatct"> Conatct us</a>
+              <a href="#conatct"> Contact us</a>
             </Typography>
             <div className=" flex items-center gap-[1.2rem] mt-4 sm:mt-0">
               <a
