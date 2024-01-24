@@ -30,7 +30,7 @@ export default function HeroSection() {
               </p>
               <div className=" mt-2 ">
                 <a
-                  href="/"
+                  href="https://t.me/thecryptoexpress" target="_blank"
                   className="btn-grad flex items-center gap-2 w-48 text-white  justify-center font-bold py-3 text-base "
                 >
                   {" "}
