@@ -46,6 +46,7 @@ export default function Navbar() {
           >
             <Typography
               as={Link}
+              to='/'
               variant="sm"
               className="font-medium cursor-pointer text-lg font-sohaMed hover:text-[#63e660]"
               onClick={() => setSidebarVisibility(false)}
