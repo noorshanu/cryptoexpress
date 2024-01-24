@@ -31,7 +31,7 @@ function ContactUs() {
           <div>
             <h1 className=" text-center text-white">telegram</h1>
 
-            <div className=" max-w-sm sm:max-w-xl w-full mx-auto">
+            <div className=" max-w-sm sm:max-w-xl w-full mx-auto overflow-hidden">
               <Swiper
                 effect={"cards"}
                 grabCursor={true}
@@ -42,7 +42,7 @@ function ContactUs() {
                 cardsEffect={{
                     slideShadows: false,
                   }}
-                className="mySwiper"
+                className="mySwiper overflow-hidden"
               >
                 <SwiperSlide>
                   <img src="images/phone2.png" alt="" className=" rounded-md h-[300px] sm:h-[600px]  " />
@@ -66,7 +66,7 @@ function ContactUs() {
             </div>
           </div>
 
-          <div className=" max-w-full sm:max-w-xl w-full">
+          <div className=" max-w-full sm:max-w-xl w-full overflow-hidden">
             <h1>Submit AMA Request</h1>
 
             <div className="mx-auto my-10 p-6 bg-[#000000b4] rounded-md shadow-md">
