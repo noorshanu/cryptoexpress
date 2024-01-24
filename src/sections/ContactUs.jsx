@@ -6,7 +6,7 @@
 function ContactUs() {
 
   return (
-    <section className=" py-12" id="contact">
+    <section className=" py-12" id="conatct">
       <div className=" container-wrapper">
         <div>
           <h1 className=" text-center text-white font-sohaBold text-4xl py-8">

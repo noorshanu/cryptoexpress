@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 import Typography from "./Typography";
 import { AiOutlineMenu } from "react-icons/ai";
-import { BsTwitterX ,BsInstagram,BsFacebook } from "react-icons/bs";
-import { FaLinkedinIn,FaTelegram  } from "react-icons/fa6";
+import { BsTwitterX, BsInstagram, BsFacebook } from "react-icons/bs";
+import { FaTiktok, FaTelegram } from "react-icons/fa6";
 import { useState } from "react";
 import { MdClose } from "react-icons/md";
 import { twMerge } from "tailwind-merge";
@@ -53,13 +53,11 @@ export default function Navbar() {
               Home
             </Typography>
             <Typography
-            
-              
               variant="sm"
               className="font-medium cursor-pointer text-lg font-sohaMed"
               onClick={() => setSidebarVisibility(false)}
             >
-             <a href="#why">Why  Us</a>
+              <a href="#why">Why Us</a>
             </Typography>
             <Typography
               as={Link}
@@ -67,10 +65,9 @@ export default function Navbar() {
               className="font-medium cursor-pointer text-lg font-sohaMed"
               onClick={() => setSidebarVisibility(false)}
             >
-             Vision
+             <a href="#vision">Vision</a>
             </Typography>
             <Typography
-             
               variant="sm"
               className="font-medium cursor-pointer text-lg font-sohaMed"
               onClick={() => setSidebarVisibility(false)}
@@ -78,33 +75,42 @@ export default function Navbar() {
               <a href="#testi">Testimonials</a>
             </Typography>
             <Typography
-             
               variant="sm"
               className="font-medium cursor-pointer text-lg font-sohaMed"
               onClick={() => setSidebarVisibility(false)}
             >
-             <a href="#conatct"> Conatct us</a>
+              <a href="#conatct"> Conatct us</a>
             </Typography>
             <div className=" flex items-center gap-4">
-              <a href="/" className=" text-xl">
-              <BsTwitterX />
+              <a
+                href="https://t.me/thecryptoexpress"
+                target="_blank"
+                className=" text-2xl hover:text-[#3da142]"
+              >
+                <FaTelegram />
               </a>
-              <a href="/" className=" text-xl">
-              <BsInstagram />
+              <a
+                href="https://twitter.com/thecryptoexpres"
+                target="_blank"
+                className=" text-2xl hover:text-[#3da142]"
+              >
+                <BsTwitterX />
+              </a>
+              <a
+                href="https://instagram.com/thecryptoexpress"
+                target="_blank"
+                className=" text-2xl hover:text-[#3da142]"
+              >
+                <BsInstagram />
               </a>
 
-              <a href="/" className=" text-xl">
-              <BsFacebook />
+              <a
+                href="https://www.tiktok.com/@TheCryptoExpress"
+                target="_blank"
+                className=" text-2xl hover:text-[#3da142]"
+              >
+                <FaTiktok />
               </a>
-
-              <a href="/" className=" text-xl">
-              <FaLinkedinIn />
-              </a>
-              <a href="https://t.me/thecryptoexpress" target="_blank" className=" text-xl">
-              <FaTelegram />
-              </a>
-
-
             </div>
           </aside>
         </div>
