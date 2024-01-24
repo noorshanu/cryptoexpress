@@ -10,7 +10,7 @@ function ContactUs() {
       <div className=" container-wrapper">
         <div>
           <h1 className=" text-center text-white font-sohaBold text-4xl py-8">
-            Contact Us
+          Contact us
           </h1>
         </div>
      
