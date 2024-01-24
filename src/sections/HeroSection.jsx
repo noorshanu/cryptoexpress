@@ -12,7 +12,7 @@ export default function HeroSection() {
             <Typography className="text-[32px] xl:text-[59px]   max-sm:mb-4">
               <span className=" font-sohaBold lh-1_3 text-white">
                 Single Destination for{" "}
-                <span className=" text-[#3da142]"> Crypto</span> Serving Since
+                <span className=" text-[#3da142]"> Crypto</span> operating Since
                 2017
               </span>
             </Typography>
