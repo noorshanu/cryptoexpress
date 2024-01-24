@@ -54,6 +54,7 @@ export default function Navbar() {
               Home
             </Typography>
             <Typography
+            as={Link}
               variant="sm"
               className="font-medium cursor-pointer text-lg font-sohaMed"
               onClick={() => setSidebarVisibility(false)}
@@ -69,6 +70,7 @@ export default function Navbar() {
              <a href="#vision">Vision</a>
             </Typography>
             <Typography
+            as={Link}
               variant="sm"
               className="font-medium cursor-pointer text-lg font-sohaMed"
               onClick={() => setSidebarVisibility(false)}
@@ -77,12 +79,13 @@ export default function Navbar() {
             </Typography>
             <Typography
               variant="sm"
+              as={Link}
               className="font-medium cursor-pointer text-lg font-sohaMed"
               onClick={() => setSidebarVisibility(false)}
             >
               <a href="#conatct"> Conatct us</a>
             </Typography>
-            <div className=" flex items-center gap-[1.2rem]">
+            <div className=" flex items-center gap-[1.2rem] mt-4 sm:mt-0">
               <a
                 href="https://t.me/thecryptoexpress"
                 target="_blank"
