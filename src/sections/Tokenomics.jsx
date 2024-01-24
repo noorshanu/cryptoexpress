@@ -61,6 +61,12 @@ const data = [
 function Tokenomics() {
   return (
     <section className="px-6">
+      <div className=" text-center">
+        <h1 className=" text-white font-sohaBold text-4xl"> Testimonials</h1>
+        <p className="text-white  text-xl py-4">
+        Check Feedback From Valued CE Members!
+        </p>
+      </div>
       <Swiper
         slidesPerView={3.5}
         spaceBetween={30}
