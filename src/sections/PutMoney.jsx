@@ -3,17 +3,17 @@ import PresaleBox from "../components/PresaleBox";
 
 function PutMoney() {
   return (
-    <section className=" bg-white pb-10 pt-4">
+    <section className=" bg-white pb-10 pt-4 overflow-x-hidden">
       <div className="container-wrapper">
         <div className=" flex  flex-col sm:flex-row justify-between gap-4 items-center">
-          <div className=" max-w-lg w-full">
+          <div className=" max-w-lg w-full " data-aos="fade-right" data-aos-duration="2000">
             <div className=" bg-[#58c648] rounded-full">
             <img src="images/teleg.png" alt="" className=" floating p-4" />
             </div>
             
           </div>
 
-          <div>
+          <div data-aos="fade-left" data-aos-duration="2000">
             <h2 className=" font-sohaBold text-5xl py-2 mb-4 lh-1_5 text-[#3da142]">
               What is Crypto Express ?
             </h2>

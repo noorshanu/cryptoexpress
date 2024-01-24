@@ -40,13 +40,12 @@ function Footer() {
 
         <div className=" pr-0 sm:pr-16 mt-2 ">
           <h3 className=" text-white font-sohaReg text-base sm:text-start text-center">
-            <strong> Disclaimer : </strong> All the information provided by the
-            Crypto express is for informational purposes only and should not be
-            considered as investment advice. We do not give investment advice.
-            Your investments are your responsibility and we won't accept any
-            liability for any losses you may incur by following or not following
-            our opinions or any contents. You are subscribing to follow our
-            trades that we provide is for educational purposes only
+            <strong> Disclaimer : </strong>The information from Crypto Express
+            is solely for informational purposes and should not be construed as
+            investment advice.  Your investments are entirely your responsibility, and we
+            disclaim any liability for potential losses resulting from adhering
+            to or deviating from our opinions or content. Subscribing to follow
+            the trades we offer is purely for educational purposes.
           </h3>
 
           <p className=" mt-8 text-white opacity-75">

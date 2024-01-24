@@ -6,9 +6,9 @@ import Typography from "../components/Typography";
 export default function HeroSection() {
   return (
     <>
-      <section className=" pb-3 ">
+      <section className=" pb-3  overflow-x-hidden">
         <div className="container-wrapper py-6 grid lg:grid-cols-[1fr_.7fr] gap-10  justify-between relative pt-[3%] ">
-          <div>
+          <div data-aos="fade-right" data-aos-duration="2000">
             <Typography className="text-[32px] xl:text-[59px]   max-sm:mb-4">
               <span className=" font-sohaBold lh-1_3 text-white">
                 Single Destination for{" "}
@@ -41,7 +41,7 @@ export default function HeroSection() {
             
             </div>
           </div>
-          <div className=" relative">
+          <div className=" relative overflow-hidden" data-aos="fade-left" data-aos-duration="2000">
             <img
               src="images/hero-img.png"
               alt=""

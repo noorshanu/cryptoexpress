@@ -1,5 +1,5 @@
 import React from "react";
-import CountUp from 'react-countup';
+
 const TeamMemberCard = ({ iconsrc, name,  description ,num}) => {
   return (
     <div className="w-full md:w-1/2 lg:w-1/4 px-4 mb-4  transform 
@@ -8,7 +8,7 @@ const TeamMemberCard = ({ iconsrc, name,  description ,num}) => {
       <div className="bg-white p-6 h-full shadow-xl rounded-lg border border-[#67f062]">
         <div className="text-center mb-4">
        <img src={iconsrc} alt="" className=" rounded-xl  h-[80px] w-auto  mx-auto mb-3" />
-          <h2 className="text-lg font-semibold"> <CountUp start={0} end={num} enableScrollSpy={true} delay={0} duration={5} />{name} </h2>
+          <h2 className="text-lg font-semibold"> {num}{name} </h2>
      
         </div>
         <p className="text-gray-700">{description}</p>
@@ -56,7 +56,7 @@ function Services() {
     <section className=" bg-white py-8 ">
       <div className=" container-wrapper">
        
-        <div className="flex flex-wrap -mx-4">
+        <div className="flex flex-wrap -mx-4" data-aos-duration="2000" data-aos="fade-up"  data-aos-anchor-placement="bottom-bottom">
           {teamMembersData.map((member, index) => (
             <TeamMemberCard key={index} {...member} />
           ))}
