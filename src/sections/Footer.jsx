@@ -38,8 +38,8 @@ function Footer() {
           </div>
         </div>
 
-        <div className=" pr-16 ">
-          <h3 className=" text-white font-sohaReg text-base">
+        <div className=" pr-0 sm:pr-16 mt-2 ">
+          <h3 className=" text-white font-sohaReg text-base sm:text-start text-center">
             <strong> Disclaimer : </strong> All the information provided by the
             Crypto express is for informational purposes only and should not be
             considered as investment advice. We do not give investment advice.
