@@ -1,6 +1,6 @@
 import React from "react";
-
-const TeamMemberCard = ({ iconsrc, name,  description }) => {
+import CountUp from 'react-countup';
+const TeamMemberCard = ({ iconsrc, name,  description ,num}) => {
   return (
     <div className="w-full md:w-1/2 lg:w-1/4 px-4 mb-4  transform 
     transition duration-1000 
@@ -8,7 +8,7 @@ const TeamMemberCard = ({ iconsrc, name,  description }) => {
       <div className="bg-white p-6 h-full shadow-xl rounded-lg border border-[#67f062]">
         <div className="text-center mb-4">
        <img src={iconsrc} alt="" className=" rounded-xl  h-[80px] w-auto  mx-auto mb-3" />
-          <h2 className="text-lg font-semibold">{name}</h2>
+          <h2 className="text-lg font-semibold"> <CountUp start={0} end={num} enableScrollSpy={true} delay={0} duration={5} />{name} </h2>
      
         </div>
         <p className="text-gray-700">{description}</p>
@@ -21,28 +21,32 @@ function Services() {
   const teamMembersData = [
     {
       iconsrc: 'images/user.png',
-      name: "250K Members",
+      num:'250',
+      name: "K Members",
    
       description:
         "The Crypto express is one of the well reputed and largest community of telegram operating since 2017",
     },
     {
         iconsrc: 'images/chart1.png',
-        name: "3400+ Signals Sent",
+        num:'3400',
+        name: "+ Signals Sent",
      
         description:
           "Our traders have been sending signals consistently for a number of years our members are earning profit by following signals on daily basis",
       },
       {
         iconsrc: 'images/hand.png',
-        name: "85% Stay With US ",
+        num:'85', 
+        name: "% Stay With US ",
      
         description:
           "we have almost 90% accuracy and 85% of our members stay with us",
       },
       {
         iconsrc: 'images/tweet.png',
-        name: "50k on Twitter",
+        num:'50',
+        name: "k on Twitter",
      
         description:
           "We have a large community of users on twitter where we share market insight on daily basis",
