@@ -14,7 +14,7 @@ function PutMoney() {
           </div>
 
           <div data-aos="fade-left" data-aos-duration="2000">
-            <h2 className=" font-sohaBold text-5xl py-2 mb-4 lh-1_5 text-[#3da142]">
+            <h2 className=" font-sohaBold text-2xl sm:text-5xl py-2 mb-4 lh-1_5 text-[#3da142]">
               What is TheCryptoExpress  ?
             </h2>
 
@@ -31,13 +31,13 @@ function PutMoney() {
             </p>
 
 
-            <div className=" flex gap-4 items-center mt-14">
+            <div className=" flex flex-col sm:flex-row gap-4 items-center mt-14">
             <button className="btn-grad px-12 py-2 font-sohaBold text-lg text-white">
                 {" "}
                 Join Our Channel
               </button>
 
-              <button className="btn-grad px-12 py-2 font-sohaBold text-lg text-white">
+              <button className="btn-grad px-16 sm:px-12 py-2 font-sohaBold text-lg text-white">
                 {" "}
                 Chat With US
               </button>

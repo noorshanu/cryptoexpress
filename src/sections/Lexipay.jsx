@@ -19,7 +19,7 @@ function Lexipay() {
           </div>
 
           <div data-aos-duration="2000" data-aos="fade-left"  >
-            <img src="images/iphone.png" alt="Lexipay App" className="h-[80%] mx-auto floating" />
+            <img src="images/iphone.png" alt="Lexipay App" className=" h-auto sm:h-[80%] mx-auto floating" />
             <h2 className=" text-center text-white text-xl  sm:text-2xl ml-12 font-medium">Let’s talk about profit together</h2>
           </div>
         </div>

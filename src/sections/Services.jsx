@@ -56,7 +56,7 @@ function Services() {
     <section className=" bg-white py-8 ">
       <div className=" container-wrapper">
        
-        <div className="flex flex-wrap -mx-4" data-aos-duration="2000" data-aos="fade-up"  data-aos-anchor-placement="bottom-bottom">
+        <div className="flex flex-wrap -mx-4" data-aos-duration="1500" data-aos="fade-up"  >
           {teamMembersData.map((member, index) => (
             <TeamMemberCard key={index} {...member} />
           ))}

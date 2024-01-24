@@ -33,8 +33,8 @@ function Whyus() {
             ))}
           </div>
 
-          <div className=" max-w-xl overflow-x-hidden" data-aos-duration="2000" data-aos="fade-left"  >
-            <div div className=" ml-0 sm:ml-10 p-4">
+          <div className=" max-w-xl mx-auto overflow-x-hidden" data-aos-duration="2000" data-aos="fade-left"  >
+            <div div className=" ml-20 sm:ml-10 p-4">
             <Swiper
                 effect={"cards"}
                 grabCursor={true}
