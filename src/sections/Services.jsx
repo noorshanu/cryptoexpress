@@ -29,8 +29,8 @@ function Services() {
     },
     {
         iconsrc: 'images/chart1.png',
-        num:'3400',
-        name: "+ Signals Sent",
+        num:'10k',
+        name: "+ Analysis sent",
      
         description:
           "Our traders have been sending signals consistently for a number of years our members are earning profit by following signals on daily basis",

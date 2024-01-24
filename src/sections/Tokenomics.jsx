@@ -7,55 +7,45 @@ import SliderNavigationButton from "../components/SliderNavigationButton";
 
 const data = [
   {
-    title: "$25K Volume",
-    subtitle: "Trading Volume",
+    title: "Karthik Jain",
+    subtitle: "Student",
     imageSrc: "/images/team1.png",
     description: [
-      "Total LDP trading volume hits $100 million",
-      "5% of total supply is burned (6,000,000 tokens)",
-      "Transaction tax reduced from 5% to 4%",
+      "With Crypto express’s expert advice I was able to buy bnb at $20, ",
+      "it is still one of the massive gains I ever earned in my lifetime"
     ],
   },
   {
-    title: "ETF Approval",
-    subtitle: "First ETF Approval",
+    title: "Rahul Soni",
+    subtitle: "Trader",
     imageSrc: "/images/team4.png",
     description: [
-      "SEC approves first LeedixPay in the U.S.",
-      "Another 5% of total supply is burned (6,000,000  tokens)",
-      "Transaction tax reduced from 4% to 3%",
+      "Honestly, joining The Crypto Express was the best move. Picked up CHZ, BNB, ",
+      "and SAND early in 2021 and, wow, what a ride! Big thanks to the team for such great tips.",
+ 
     ],
   },
   {
-    title: "ETF Launch",
-    subtitle: "Launch Date",
+    title: "Alex",
+    subtitle: "Trader",
     imageSrc: "/images/team3.png",
     description: [
-      "First LeedixPay launches in the U.S.",
-      "Another 5% of total supply is burned (6,000,000  tokens)",
-      "Transaction tax reduced from 3% to 2%",
+      "I've been following The Crypto Express for a while now,  ",
+      "and their market analysis is spot on. It's helped me make some really smart choices",
+      "and grow my portfolio more than I thought possible.",
     ],
   },
   {
-    title: "ETF (AUM) $1B",
-    subtitle: "ETF Assets $1 Billion",
+    title: "Jhon",
+    subtitle: "Manager",
     imageSrc: "/images/team2.png",
     description: [
-      "LeedixPay assets under management (AUM) hits $1 billion value",
-      "Another 5% of total supply is burned (6,000,000  tokens)",
-      "Transaction tax reduced from 2% to 1%",
+      "Buying $MUBI after the recommendation of crypto express experts was the best decision of my life.",
+      "I made 50x with this single trade in 2023. They are the best. Life changing gains.",
+      
     ],
   },
-  {
-    title: "Ethereum $25K",
-    subtitle: "$25K ETH Price",
-    imageSrc: "/images/team1.png",
-    description: [
-      "The ETH price closes a daily candle above $25,000",
-      "Another 5% of total supply is burned (6,000,000  tokens)",
-      "Transaction tax reduced from 1% to 0%",
-    ],
-  },
+ 
 ];
 
 function Tokenomics() {
@@ -64,7 +54,7 @@ function Tokenomics() {
       <div className=" text-center">
         <h1 className=" text-white font-sohaBold text-4xl"> Testimonials</h1>
         <p className="text-white  text-xl py-4">
-        Check Feedback From Valued CE Members!
+        Check Feedback From our value members!
         </p>
       </div>
       <div data-aos-duration="1000" data-aos="fade-up"  >
