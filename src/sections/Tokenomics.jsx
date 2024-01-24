@@ -67,7 +67,7 @@ function Tokenomics() {
         Check Feedback From Valued CE Members!
         </p>
       </div>
-      <div data-aos-duration="2000" data-aos="fade-up"  data-aos-anchor-placement="bottom-bottom">
+      <div data-aos-duration="1000" data-aos="fade-up"  >
       <Swiper
         slidesPerView={3.5}
         spaceBetween={30}

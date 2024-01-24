@@ -82,7 +82,7 @@ export default function Navbar() {
             >
               <a href="#conatct"> Conatct us</a>
             </Typography>
-            <div className=" flex items-center gap-4">
+            <div className=" flex items-center gap-[1.2rem]">
               <a
                 href="https://t.me/thecryptoexpress"
                 target="_blank"
