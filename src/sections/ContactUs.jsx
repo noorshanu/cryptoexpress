@@ -29,9 +29,10 @@ function ContactUs() {
       <div className=" container-wrapper">
         <div className=" flex justify-evenly flex-col sm:flex-row items-center gap-4">
           <div>
-            <h1 className=" text-center text-white">telegram</h1>
+            <h1 className=" text-center text-white font-sohaBold text-xl" >Telegram</h1>
+            <p className=" text-center text-white font-medium text-lg">Contact us on telegram</p>
 
-            <div className=" max-w-sm sm:max-w-xl w-full mx-auto overflow-hidden">
+            <div className=" max-w-sm sm:max-w-xl w-full sm:overflow-hidden  ml-[8%]   sm:ml-[18%]">
               <Swiper
                 effect={"cards"}
                 grabCursor={true}
@@ -42,7 +43,7 @@ function ContactUs() {
                 cardsEffect={{
                     slideShadows: false,
                   }}
-                className="mySwiper overflow-hidden"
+                className="mySwiper overflow-hidden "
               >
                 <SwiperSlide>
                   <img src="images/phone2.png" alt="" className=" rounded-md h-[300px] sm:h-[600px]  " />
@@ -67,17 +68,17 @@ function ContactUs() {
           </div>
 
           <div className=" max-w-full sm:max-w-xl w-full overflow-hidden">
-            <h1>Submit AMA Request</h1>
+            <h1 className="text-white font-sohaBold text-xl text-center">Submit AMA Request</h1>
 
             <div className="mx-auto my-10 p-6 bg-[#000000b4] rounded-md shadow-md">
-              <h2 className="text-2xl font-bold mb-6">Contact Us</h2>
+             
               <form onSubmit={handleSubmit}>
                 <div className="mb-4">
                   <label
                     htmlFor="name"
                     className="block text-sm font-medium text-gray-600 text-white"
                   >
-                    Name
+                    Name:
                   </label>
                   <input
                     type="text"
@@ -95,10 +96,10 @@ function ContactUs() {
                     htmlFor="email"
                     className="block text-sm font-medium text-gray-600 text-white"
                   >
-                    Email
+                   Telegram ID:
                   </label>
                   <input
-                    type="email"
+                    type="text"
                     id="email"
                     name="email"
                     value={formData.email}
@@ -128,7 +129,7 @@ function ContactUs() {
 
                 <button
                   type="submit"
-                  className="bg-blue-500 text-white p-2 rounded-md hover:bg-blue-600 focus:outline-none focus:ring focus:border-blue-300"
+                  className="btn-grad text-white font-sohaBold py-2 px-12 rounded-md "
                 >
                   Submit
                 </button>
