@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import { animateScroll as scroll } from "react-scroll";
 import Typography from "./Typography";
 import { AiOutlineMenu } from "react-icons/ai";
 import { BsTwitterX, BsInstagram, BsFacebook } from "react-icons/bs";
@@ -46,45 +46,42 @@ export default function Navbar() {
           >
             <Typography
               as={Link}
-              to='/'
+              to="/"
               variant="sm"
               className="font-medium cursor-pointer text-lg font-sohaMed hover:text-[#63e660]"
-              onClick={() => setSidebarVisibility(false)}
+              onClick={() => handleNavLinkClick("home")}
             >
               Home
             </Typography>
-            <Typography
-            as={Link}
-              variant="sm"
+            <a
+              href="#why"
+              className="font-medium cursor-pointer text-lg font-sohaMed"
+            >
+              Why Us
+            </a>
+            <a
+              href="#vision"
               className="font-medium cursor-pointer text-lg font-sohaMed"
               onClick={() => setSidebarVisibility(false)}
             >
-              <a href="#why">Why Us</a>
-            </Typography>
-            <Typography
-              as={Link}
-              variant="sm"
+              Vision
+            </a>
+            <a
+              href="#testi"
               className="font-medium cursor-pointer text-lg font-sohaMed"
               onClick={() => setSidebarVisibility(false)}
             >
-             <a href="#vision">Vision</a>
-            </Typography>
-            <Typography
-            as={Link}
-              variant="sm"
+              Testimonials
+            </a>
+
+            <a
+              href="#contact"
               className="font-medium cursor-pointer text-lg font-sohaMed"
               onClick={() => setSidebarVisibility(false)}
             >
-              <a href="#testi">Testimonials</a>
-            </Typography>
-            <Typography
-              variant="sm"
-              as={Link}
-              className="font-medium cursor-pointer text-lg font-sohaMed"
-              onClick={() => setSidebarVisibility(false)}
-            >
-              <a href="#conatct"> Contact us</a>
-            </Typography>
+              Contact us
+            </a>
+
             <div className=" flex items-center gap-[1.2rem] mt-4 sm:mt-0">
               <a
                 href="https://t.me/thecryptoexpress"
