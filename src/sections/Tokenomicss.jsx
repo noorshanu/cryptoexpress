@@ -5,7 +5,7 @@
 
 function Tokenomicss() {
   return (
-    <section className="py-6 mt-[4rem]">
+    <section className="pb-8 mt-[4rem]">
      <div className="container-wrapper">
       <h1 className=" text-center text-white text-3xl font-bold ">
       TOKONOMICS 

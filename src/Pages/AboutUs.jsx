@@ -21,8 +21,10 @@ function AboutUs() {
     <About/>
     <Roadmap/>
     <Roadmap2/>
-    <Team/>
+   
     <Tokenomicss/>
+
+    <Team/>
    
     <Footer/>
   </div>
