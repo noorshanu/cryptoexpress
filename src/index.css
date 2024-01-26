@@ -316,5 +316,26 @@ z-index: -2;
 }
 
 @media (max-width:768px) {
-
+  .how-card {
+    position: relative;
+    border-radius: 20px;
+    background: #191B23;
+    border: 1px solid #000000b7;
+  
+    width: 300px;
+    height: 340px;
+    margin: auto;
+    overflow: hidden;
+    padding: 10px 20px;
+    
+  }
+  .how-card::before{
+  content: '';
+  position: absolute;
+  width: 300px;
+  height: 390px;
+  background: #219216;
+  animation: rotates 6s linear infinite;
+  z-index: -2;
+  }
 }
