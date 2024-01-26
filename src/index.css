@@ -288,7 +288,7 @@ content: '';
 position: absolute;
 width: 340px;
 height: 390px;
-background: var(--1, linear-gradient(99deg, #219216 0%, #eeee3b 119.65%));
+background: #219216;
 animation: rotates 6s linear infinite;
 }
 

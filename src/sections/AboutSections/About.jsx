@@ -26,7 +26,7 @@ function About() {
               instantly converts them to Dai <br /> stablecoin so you don’t have to
               worry about volatility. CONTACT US
             </p>
-            <div className=" mt-8 flex items-center gap-6 ">
+            <div className=" mt-8 flex flex-col sm:flex-row items-start sm:items-center gap-6 ">
                 <a
                   href="https://t.me/thecryptoexpress" target="_blank"
                   className="btn-grad flex items-center gap-2 w-48 text-white  justify-center font-bold py-3 text-base "
