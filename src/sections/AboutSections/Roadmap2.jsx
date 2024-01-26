@@ -77,7 +77,7 @@ export default Roadmap2
 
 let RoadmapCard = ({ text,title }) => {
   return (
-    <div className=" px-[20px] py-[61px] sm:px-[48px] sm:py-12 md:py-[93px] sm:w-full  rounded-3xl flex-col flex justify-center items-center text-white bg-white bg-opacity-[0.03] roadmap-blur font-montserrat  text-base">
+    <div className=" transform transition duration-1000 hover:scale-110 cursor-pointer hover:border-2 border-[#67f062] px-[20px] py-[61px] sm:px-[48px] sm:py-12 md:py-[93px] sm:w-full  rounded-3xl flex-col flex justify-center items-center text-white bg-white bg-opacity-[0.03] roadmap-blur font-montserrat  text-base">
      <h2 className=' font-bitsu text-base sm:text-2xl py-2'>
       {title}
      </h2>
