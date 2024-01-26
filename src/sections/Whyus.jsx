@@ -84,7 +84,7 @@ const goals = [
     text: "We have skillful team of Crypto trading Analysts.We are providing the best performance with the legitimate updates since 2018.",
   },
   {
-    text: "We offer on demand analysis on daily basis to our community with more valuable services like AMA pooling long term investment advice.",
+    text: "We offer on demand analysis on daily basis to our community with more valuable services in AMA, pooling, long term investment advice.",
   },
   {
     text: "This is not a get rich quick scheme. You need to learn how to trade and you will be abl to do so with the help of our signals. we are here to help you make money from cryptocurrency trading.",
