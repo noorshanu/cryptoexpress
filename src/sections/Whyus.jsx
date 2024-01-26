@@ -51,19 +51,19 @@ function Whyus() {
                   <img src="images/phone2.png" alt="" className=" rounded-md h-[300px] sm:h-[600px]  " />
                 </SwiperSlide>
                 <SwiperSlide> 
-                  <img src="images/phone2.png" alt="" className=" rounded-md  h-[300px] sm:h-[600px]" />
+                  <img src="images/1.png" alt="" className=" rounded-md  h-[300px] sm:h-[600px]" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src="images/phone2.png" alt="" className=" rounded-md  h-[300px] sm:h-[600px] " />
+                  <img src="images/2.png" alt="" className=" rounded-md  h-[300px] sm:h-[600px] " />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src="images/phone2.png" alt="" className=" rounded-md h-[300px] sm:h-[600px] " />
+                  <img src="images/3.png" alt="" className=" rounded-md h-[300px] sm:h-[600px] " />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src="images/phone2.png" alt="" className=" rounded-md ]  h-[300px] sm:h-[600px]" />
+                  <img src="images/4.png" alt="" className=" rounded-md ]  h-[300px] sm:h-[600px]" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src="images/phone2.png" alt="" className=" rounded-md  h-[300px] sm:h-[600px] " />
+                  <img src="images/5.png" alt="" className=" rounded-md  h-[300px] sm:h-[600px] " />
                 </SwiperSlide>
               </Swiper>
             </div>
