@@ -13,7 +13,7 @@ function App() {
         <div className="">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/about-us" element={<AboutUs/>} />
+            <Route path="/tce-token" element={<AboutUs/>} />
           </Routes>
         </div>
       </Router>

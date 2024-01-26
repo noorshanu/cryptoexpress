@@ -2,7 +2,7 @@ import React from 'react'
 
 function Team() {
   return (
-    <section className=' py-8 my-4'>
+    <section className=' py-8 my-4 bg-white'>
         <div className="container-wrapper">
 
           <div>
