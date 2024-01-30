@@ -1,4 +1,4 @@
-import LinesEllipsis from "react-lines-ellipsis";
+
 
 function Newscard({ title, imgUrl, Disc, Auther, Time, link }) {
   return (
@@ -6,7 +6,7 @@ function Newscard({ title, imgUrl, Disc, Auther, Time, link }) {
       href={link}
       target="_blank"
       rel="noreferrer"
-      className="blog-box w-full cursor-pointer h-full flex flex-col"
+      className="blog-box w-full cursor-pointer h-full flex flex-col "
     >
       <span className="flex-1">
         {/* <LinesEllipsis
@@ -18,7 +18,7 @@ function Newscard({ title, imgUrl, Disc, Auther, Time, link }) {
           basedOn="letters"
         /> */}
 
-        <h3 className="text-base font-bold heading mb-2 text-[#4d5060] max-lines">
+        <h3 className="text-base font-bold heading mb-2 text-[#ffffff] max-lines">
           {title}...
         </h3>
         <img
@@ -28,7 +28,7 @@ function Newscard({ title, imgUrl, Disc, Auther, Time, link }) {
         />
         <p
           style={{ "--h": "10.2em" }}
-          className="pt-4 mb-1 text-base text-[#4d5060] description max-lines"
+          className="pt-4 mb-1 text-base text-[#ffffff] description max-lines"
         >
           {Disc}...
         </p>
@@ -42,7 +42,7 @@ function Newscard({ title, imgUrl, Disc, Auther, Time, link }) {
         /> */}
       </span>
 
-      <span className="m-0 pt-2 text-xs font-bold time text-[#4d5060]">
+      <span className="m-0 pt-2 text-xs font-bold time text-[#b8b8b8]">
         {Auther}
         <br />
         {Time}

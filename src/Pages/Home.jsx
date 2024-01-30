@@ -13,6 +13,7 @@ import Services from "../sections/Services";
 import Whyus from "../sections/Whyus";
 import ContactUs from "../sections/ContactUs";
 import Tokenomics from "../sections/Tokenomics";
+import LatestNews from "../sections/LatestNews";
 function Home() {
   return (
     <>
@@ -53,6 +54,10 @@ function Home() {
         <div className="my-10">
         <Tokenomics/>
         </div>
+        <div className="mb-10">
+      
+  <LatestNews/>
+         </div>
         <div className="mb-10">
       
      <ContactUs/>
