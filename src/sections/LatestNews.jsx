@@ -66,7 +66,7 @@ function LatestNews() {
 
   return (
     <section className="container-wrapper relative">
-      <h2 className=" text-2xl text-white">Latest TCE News</h2>
+      <h2 className=" text-2xl text-white text-center">What Industry says About Us..</h2>
 
       <div className="mt-3 mb-4">
         <Swiper
@@ -105,7 +105,7 @@ function LatestNews() {
         </Swiper>
       </div>
 
-      <div className="flex items-center space-x-5">
+      <div className="flex items-center justify-center space-x-5">
         <SliderNavigationButton className="prevEl rotate-180" />
         <SliderNavigationButton className="nextEl" />
       </div>
