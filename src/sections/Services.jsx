@@ -45,7 +45,7 @@ function Services() {
       },
       {
         iconsrc: 'images/tweet.png',
-        num:'50',
+        num:'70',
         name: "k on Twitter",
      
         description:
