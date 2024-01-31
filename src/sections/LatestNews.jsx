@@ -17,6 +17,7 @@ const data = [
     Disc: "you are looking for a reliable and authentic crypto service, look no further than The Crypto Express. They have everything you need to succeed in the crypto space: education, ",
     Auther: "Bitcoinik ",
     Time: "crypto media house",
+    IconUrl:'https://bitcoinik.com/wp-content/uploads/2020/04/logo22.png.webp',
     link: "https://bitcoinik.com/empowering-the-crypto-community-a-commendation-for-the-crypto-express-journey/",
   },
 
@@ -27,6 +28,7 @@ const data = [
     Disc: "The Crypto express content is unbiased, easy to understand, and reliable. They also have a great community of crypto enthusiasts who want to succeed in this space. I highly recommend The Crypto Express  ",
     Auther: "Binance Feed",
     Time: "Top Crypto exchange",
+    IconUrl:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA3ElEQVR4AcWXAQYDMRREF9DTBEBF7Un2JFWof6ZaeqvaA7TBp4xh2C9mGdjEviebJPlL5Tne7TkSi+NJ+DcTFjgkLHBIWOCQsMAhYYKjxHz4nhES8+CXTF2CwO8K/u8rJR5nBK4jHwVXEvmNrolSgsC1BMIlcEsAk9hJWx9ZqUTCSdsmJhwFNQZPyDFyI6BG3r2SERwuhxrh2Z9IMDgwgsC1BMJBYlVwSPgF7L/APwnry7DXl6Ee6rkbkYAXtmI9P/yHkf849l9I/Fcy/6XUfy33Fyb+0sxfnLrK8x8BCDupxYlOYwAAAABJRU5ErkJggg==",
     link: "https://www.binance.com/en-IN/feed/post/3315653283282",
   },
 
@@ -98,6 +100,7 @@ function LatestNews() {
                 Disc={item.Disc}
                 Auther={item.Auther}
                 Time={item.Time}
+                IconUrl={item.IconUrl}
                 link={item.link}
               />
             </SwiperSlide>

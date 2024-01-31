@@ -1,6 +1,6 @@
 
 
-function Newscard({ title, imgUrl, Disc, Auther, Time, link }) {
+function Newscard({ title, imgUrl, Disc, Auther, Time, link,IconUrl }) {
   return (
     <a
       href={link}
@@ -41,8 +41,9 @@ function Newscard({ title, imgUrl, Disc, Auther, Time, link }) {
           basedOn="letters"
         /> */}
       </span>
-
+      <img src={IconUrl} alt="" className=" rounded-full p-2 h-[54px] w-[54px] bg-[#000]" />
       <span className="m-0 pt-2 text-xs font-bold time text-[#b8b8b8]">
+       
         {Auther}
         <br />
         {Time}
