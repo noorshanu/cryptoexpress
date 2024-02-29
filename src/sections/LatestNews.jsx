@@ -35,31 +35,52 @@ const data = [
 
 
   {
-    title: "BlackRock expands crypto strategy with  application",
+    title: "Empowering the Cryptocurrency Community: The Crypto Express",
     imgUrl:
-      "https://www.finextra.com/finextra-images/top_pics/xl/bitcoin-3.jpg",
-    Disc: "In a filing through Nasdaq, the world’s largest asset manager revealed its plans to create an that holds Ethereum’s ether token (ETH), bolstering its cryptocurrency strategy.",
-    Auther: "",
-    Time: "10 November 2023",
-    link: "https://www.finextra.com/newsarticle/43273/blackrock-expands-crypto-strategy-with-ethereum-etf-application",
+      "https://i0.wp.com/frontwires.com/wp-content/uploads/2024/02/The-Crypto-Express.webp?w=1248&ssl=1",
+    Disc: "The decision by The Crypto Express to launch innovative educational initiatives marks a significant milestone for the cryptocurrency community. This transformative endeavor aims to meet the growing demand...",
+    Auther: "FrontWires",
+    Time: "08 Feb 2024",
+    IconUrl:"https://frontwires.com/wp-content/uploads/2023/02/FrontWires-header-logo-231x56-1.png.webp",
+    link: "https://frontwires.com/empowering-the-cryptocurrency-community-the-crypto-express-educational-revolution/",
   },
   {
-    title: "ETH crosses $2k as BlackRock’s Ethereum Trust  filing surfaces",
+    title: "The Crypto Express: Illuminating the Path to Cryptocurrency ",
     imgUrl:
       "https://cryptoslate.com/wp-content/themes/cryptoslate-2020/imgresize/timthumb.php?src=https://cryptoslate.com/wp-content/uploads/2023/11/ethereum-staking.jpg&w=600&h=315&q=75",
-    Disc: "A new filing with the Delaware Division of Corporations suggests BlackRock is ready to move into Ethereum ETFs next.",
-    Auther: "Jacob Oliver",
-    Time: "Nov. 9, 2023",
-    link: "https://cryptoslate.com/eth-crosses-2k-as-blackrocks-ethereum-trust-filing-surfaces/",
+    Disc: "In an era marked by rapid digital transformation, the quest for a dependable source of information and education in the cryptocurrency domain...",
+    Auther: "Business Insider",
+    Time: "22 Feb, 2024",
+    link: "https://markets.businessinsider.com/news/stocks/the-crypto-express-illuminating-the-path-to-cryptocurrency-mastery-in-the-digital-age-1033094535",
   },
   {
-    title: " Are Making Their US Debut in Industry Victory",
+    title: " Cryptocurrency Community: The Crypto Express’ Educational Revolution",
     imgUrl:
-      "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJiY7d_VyuLg/v1/1200x800.jpg",
-    Disc: "The first-ever exchange-traded funds based on Ether futures began trading in the US, capping a years-long battle by firms to provide investment vehicles centered on the second-largest digital token.",
-    Auther: "Vildana Hajric",
-    Time: "October 2, 2023",
-    link: "https://www.bloomberg.com/news/articles/2023-10-02/ether-futures-eth-etfs-are-making-their-debut-in-the-us-in-industry-victory",
+      "https://miro.medium.com/v2/resize:fit:828/format:webp/1*9DUXD9umNdw-jzNvNyko6Q.jpeg",
+    Disc: "The decision by The Crypto Express to launch innovative educational initiatives marks a significant milestone for the cryptocurrency community.",
+    Auther: "The Classic Times",
+    Time: "Feb 07, 2024",
+    link: "https://medium.com/@theclassictimes/empowering-the-cryptocurrency-community-the-crypto-express-educational-revolution-e49fc7282498",
+  },
+  {
+    title: " The Crypto Express: Your Gateway to the World of Cryptocurrency",
+    imgUrl:
+      "https://miro.medium.com/v2/resize:fit:828/format:webp/1*9DUXD9umNdw-jzNvNyko6Q.jpeg",
+    Disc: "The decision by The Crypto Express to launch innovative educational initiatives marks a significant milestone for the cryptocurrency community.",
+    Auther: "Binance",
+    Time: "Feb 07, 2024",
+    IconUrl:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA3ElEQVR4AcWXAQYDMRREF9DTBEBF7Un2JFWof6ZaeqvaA7TBp4xh2C9mGdjEviebJPlL5Tne7TkSi+NJ+DcTFjgkLHBIWOCQsMAhYYKjxHz4nhES8+CXTF2CwO8K/u8rJR5nBK4jHwVXEvmNrolSgsC1BMIlcEsAk9hJWx9ZqUTCSdsmJhwFNQZPyDFyI6BG3r2SERwuhxrh2Z9IMDgwgsC1BMJBYlVwSPgF7L/APwnry7DXl6Ee6rkbkYAXtmI9P/yHkf849l9I/Fcy/6XUfy33Fyb+0sxfnLrK8x8BCDupxYlOYwAAAABJRU5ErkJggg==",
+    link: "https://www.binance.com/en/feed/post/3807809560585?ref=20028702",
+  },
+  {
+    title: " cryptocurrency stands as a revolutionary force, reshaping our understanding of money",
+    imgUrl:
+      "https://miro.medium.com/v2/resize:fit:828/format:webp/1*9DUXD9umNdw-jzNvNyko6Q.jpeg",
+    Disc: "The decision by The Crypto Express to launch innovative educational initiatives marks a significant milestone for the cryptocurrency community.",
+    Auther: "TheSunTribune",
+    Time: "Feb 07, 2024",
+   
+    link: "https://thesuntribune.com/the-crypto-express-your-gateway-to-the-world-of-cryptocurrency/",
   },
 ];
 
