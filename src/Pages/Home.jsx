@@ -14,6 +14,7 @@ import Whyus from "../sections/Whyus";
 import ContactUs from "../sections/ContactUs";
 import Tokenomics from "../sections/Tokenomics";
 import LatestNews from "../sections/LatestNews";
+import Press from "../sections/Press";
 function Home() {
   return (
     <>
@@ -58,6 +59,10 @@ function Home() {
       
   <LatestNews/>
          </div>
+         <div className="mb-10">
+      
+      <Press/>
+             </div>
         <div className="mb-10">
       
      <ContactUs/>
