@@ -10,6 +10,17 @@ import SliderNavigationButton from "../components/SliderNavigationButton";
 const data = [
 
   {
+    title: "Navigating the Crypto Universe with The Crypto Express",
+    imgUrl:
+      "https://s.yimg.com/ny/api/res/1.2/J9SPJvDR7Il7KhBIq0jcYA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTY0MDtjZj13ZWJw/https://media.zenfs.com/en/accesswire.ca/79f0b09e56a388b33ce19e4a024e23c4",
+    Disc: "The Crypto Express serves as your one-stop destination for all things related to cryptocurrency. Whether you're a novice looking to grasp the basics or a seasoned trader seeking the latest market insights...",
+    Auther: "Yahoo Finance",
+    Time: "Thu, Jul 11, 2024",
+    link: "https://finance.yahoo.com/news/navigating-crypto-universe-crypto-express-140000109.html",
+  },
+
+
+  {
     title: "The Crypto Express: Illuminating the Path to Cryptocurrency ",
     imgUrl:
       "https://cryptoslate.com/wp-content/themes/cryptoslate-2020/imgresize/timthumb.php?src=https://cryptoslate.com/wp-content/uploads/2023/11/ethereum-staking.jpg&w=600&h=315&q=75",
